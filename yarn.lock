@@ -48,11 +48,12 @@
   resolved "https://registry.yarnpkg.com/@marblejs/middleware-cors/-/middleware-cors-2.1.0.tgz#ea40cbd271b4e7bf171f96b86eabdf3cb4309dc4"
   integrity sha512-bY0LkkMdlXGmF9kBae1gW0AHzIGNpPsF56A51l5bDMT3hiwyWgosAynW4p265Ps4qNro6+oqoOXTIMYSZwIGaA==
 
-"@marblejs/middleware-io@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@marblejs/middleware-io/-/middleware-io-2.1.0.tgz#ade98a304a394fe4af7408eea00353241fcd7b45"
-  integrity sha512-ZJAtZ7k5iygXnTH3KzXgvjRKLRW8PQFHeuz5DFybwOP85lCdZ7MEbp4ZRMz4GNsrKVRI0LCpu+dEEhgDsqnb2w==
+"@marblejs/middleware-io@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@marblejs/middleware-io/-/middleware-io-2.3.1.tgz#26c9f46619057b1a9b8d5960dba81d881322b112"
+  integrity sha512-bIrCZQPCogUzu71fTIAes7BD+si0M9za8wtg4n9i3nHLy85I2tLh5U4zbzPbGxBYa7ix90lNuKsi3qpctVCWTw==
   dependencies:
+    "@types/json-schema" "^7.0.3"
     io-ts "1.8.5"
 
 "@marblejs/middleware-jwt@2.1.0":
@@ -108,6 +109,11 @@
   version "13.6.3"
   resolved "https://registry.yarnpkg.com/@types/joi/-/joi-13.6.3.tgz#79364839a9cc2c6d4d915ef8822e1f703e28648f"
   integrity sha512-n5tDa0/3MUtHsA2fVH+emDfGQkPramIpWaOvWS+7C/Yq7bn2j979RAIy9pbl4F4hSE5lwjgBXhJN019DP+3ofg==
+
+"@types/json-schema@^7.0.3":
+  version "7.0.9"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
+  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
